@@ -6,6 +6,7 @@
 - 拍照/錄影完後再點擊瀏覽頁面，會直接切到最後一頁
   1.在widget.cpp當中
 - 修改照片/影片的命名規則
+  直接在以下connect進行修改
     <pre>cpp<br>connect(control_widget,&control_interface::socket_photograph_name,this,[=]{
         memset(result,0,sizeof(result));
         QString path;
