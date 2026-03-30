@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>video_drowse_play</class>
+ <widget class="QWidget" name="video_drowse_play">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_return_vs" name="label_return">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>20</y>
+     <width>120</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/相片/返回.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_right_vs" name="label_right">
+   <property name="geometry">
+    <rect>
+     <x>1205</x>
+     <y>298</y>
+     <width>55</width>
+     <height>205</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/相片/往右.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_delete_vs" name="label_delete">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>710</y>
+     <width>120</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/相片/删除.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_left_vs" name="label_left">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>298</y>
+     <width>55</width>
+     <height>205</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/相片/往左.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_recoil_vs" name="label_recoil">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>710</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/视频/快退.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_pause_vs" name="label_pause">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>710</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/视频/暂停.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_advance_vs" name="label_advance">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>710</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/视频/快进.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_time">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>710</y>
+     <width>200</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSlider" name="horizontalSlider">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>710</y>
+     <width>630</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Label_return_vs</class>
+   <extends>QLabel</extends>
+   <header>video_drowse_play.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_left_vs</class>
+   <extends>QLabel</extends>
+   <header>video_drowse_play.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_right_vs</class>
+   <extends>QLabel</extends>
+   <header>video_drowse_play.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_delete_vs</class>
+   <extends>QLabel</extends>
+   <header>video_drowse_play.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_recoil_vs</class>
+   <extends>QLabel</extends>
+   <header>video_drowse_play.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_pause_vs</class>
+   <extends>QLabel</extends>
+   <header>video_drowse_play.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_advance_vs</class>
+   <extends>QLabel</extends>
+   <header>video_drowse_play.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

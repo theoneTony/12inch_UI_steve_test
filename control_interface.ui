@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>control_interface</class>
+ <widget class="QWidget" name="control_interface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="Label_awb" name="label_awb">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>0</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/白平衡.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_freeze" name="label_freeze">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>80</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/tu/冻结/冻结.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_photograph" name="label_photograph">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>240</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/tu/拍照.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_videoint" name="label_video">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>320</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/录像.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_ae" name="label_ae">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>400</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/tu/AE/AE1.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_led" name="label_led">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>560</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/tu/LED/LED1.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_interface" name="label_interface">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>720</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/主界面.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_versions">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>750</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>当前版本:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_times">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>720</y>
+     <width>80</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>14:01:59</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_month_day">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>680</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>04/11</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_years">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>640</y>
+     <width>78</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>2024</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelw_awb">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>120</y>
+     <width>75</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>白平衡:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelw_zoom">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>缩放倍数:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_atom">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>130</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>手动</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_zoomnum">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>185</y>
+     <width>25</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>x4</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelw_picture">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>画面模式:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="Label_picture_mode" name="label_picture_mode">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>235</y>
+     <width>65</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelw_show">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>290</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>显示模式:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="Label_display_mode" name="label_display_mode">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>295</y>
+     <width>70</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelw_language">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>348</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>语言:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_language_c">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>350</y>
+     <width>65</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>简体中文</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelw_time">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>使用时长:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_timenum">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>440</y>
+     <width>140</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelw_number">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>470</y>
+     <width>70</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>使用次数:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_use_num">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>480</y>
+     <width>70</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_b">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/方形.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+   </property>
+  </widget>
+  <widget class="Label_custom1" name="label_custom1">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>530</y>
+     <width>50</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/无功能.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_custom2" name="label_custom2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>530</y>
+     <width>50</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/无功能.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_custom3" name="label_custom3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>530</y>
+     <width>50</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/无功能.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_pump" name="label_pump">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>640</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/tu/气泵/气泵0.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_rotate" name="label_rotate">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>160</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/tu/旋转/旋转0.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_store" name="label_store">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>30</y>
+     <width>160</width>
+     <height>87</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>储存</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="Label_frames" name="label_frames">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>500</y>
+     <width>280</width>
+     <height>280</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_time">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>5</y>
+     <width>140</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0:00</string>
+   </property>
+  </widget>
+  <widget class="Label_screen_left" name="label_screen_left">
+   <property name="geometry">
+    <rect>
+     <x>185</x>
+     <y>30</y>
+     <width>425</width>
+     <height>395</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_screen_right" name="label_screen_right">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>30</y>
+     <width>425</width>
+     <height>395</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_mtoa">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>130</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>自动</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_picture_1">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>240</y>
+     <width>65</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>初始</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_picture_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>240</y>
+     <width>65</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>圆形</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_picture_3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>240</y>
+     <width>65</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>八角形</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_picture_4">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>240</y>
+     <width>65</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>椭圆</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_picture_5">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>240</y>
+     <width>65</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>矩形</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_language_ct">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>350</y>
+     <width>65</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>繁体中文</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_language_e">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>350</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>英文</string>
+   </property>
+  </widget>
+  <widget class="Label_display_mode" name="label_display_1">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>300</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>单画面模式</string>
+   </property>
+  </widget>
+  <widget class="Label_display_mode" name="label_display_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>300</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>双画面模式</string>
+   </property>
+  </widget>
+  <widget class="Label_display_mode" name="label_display_3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>300</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>子母模式</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_versions_num">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>760</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>SPv5.70904</string>
+   </property>
+  </widget>
+  <widget class="Label_host_led" name="label_host_led">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>480</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/LED/hostled2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>510</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>510</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>510</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="Label_zoom" name="label_zoomup">
+   <property name="geometry">
+    <rect>
+     <x>113</x>
+     <y>185</y>
+     <width>45</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/视频/快进.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_switch" name="label_switch">
+   <property name="geometry">
+    <rect>
+     <x>55</x>
+     <y>50</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/tu/切换开.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_language_x">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>350</y>
+     <width>65</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>西班牙</string>
+   </property>
+  </widget>
+  <zorder>label_b</zorder>
+  <zorder>label_awb</zorder>
+  <zorder>label_freeze</zorder>
+  <zorder>label_photograph</zorder>
+  <zorder>label_video</zorder>
+  <zorder>label_ae</zorder>
+  <zorder>label_led</zorder>
+  <zorder>label_interface</zorder>
+  <zorder>label_versions</zorder>
+  <zorder>label_times</zorder>
+  <zorder>label_month_day</zorder>
+  <zorder>label_years</zorder>
+  <zorder>labelw_awb</zorder>
+  <zorder>labelw_zoom</zorder>
+  <zorder>label_atom</zorder>
+  <zorder>label_zoomnum</zorder>
+  <zorder>labelw_picture</zorder>
+  <zorder>labelw_show</zorder>
+  <zorder>labelw_language</zorder>
+  <zorder>label_language_c</zorder>
+  <zorder>labelw_time</zorder>
+  <zorder>label_timenum</zorder>
+  <zorder>labelw_number</zorder>
+  <zorder>label_use_num</zorder>
+  <zorder>label_custom1</zorder>
+  <zorder>label_custom2</zorder>
+  <zorder>label_custom3</zorder>
+  <zorder>label_pump</zorder>
+  <zorder>label_rotate</zorder>
+  <zorder>label_store</zorder>
+  <zorder>label_frames</zorder>
+  <zorder>label_time</zorder>
+  <zorder>label_screen_left</zorder>
+  <zorder>label_screen_right</zorder>
+  <zorder>label_mtoa</zorder>
+  <zorder>label_picture_1</zorder>
+  <zorder>label_picture_2</zorder>
+  <zorder>label_picture_3</zorder>
+  <zorder>label_picture_4</zorder>
+  <zorder>label_picture_5</zorder>
+  <zorder>label_picture_mode</zorder>
+  <zorder>label_language_ct</zorder>
+  <zorder>label_language_e</zorder>
+  <zorder>label_display_1</zorder>
+  <zorder>label_display_2</zorder>
+  <zorder>label_display_3</zorder>
+  <zorder>label_display_mode</zorder>
+  <zorder>label_versions_num</zorder>
+  <zorder>label_host_led</zorder>
+  <zorder>label_1</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_zoomup</zorder>
+  <zorder>label_switch</zorder>
+  <zorder>label_language_x</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Label_interface</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_freeze</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_awb</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_photograph</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_videoint</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_ae</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_led</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_picture_mode</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_display_mode</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_custom1</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_custom2</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_custom3</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_pump</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_rotate</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_store</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_frames</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_screen_left</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_screen_right</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_host_led</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_zoom</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_switch</class>
+   <extends>QLabel</extends>
+   <header>control_interface.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

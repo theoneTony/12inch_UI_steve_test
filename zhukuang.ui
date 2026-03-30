@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>zhukuang</class>
+ <widget class="QWidget" name="zhukuang">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="Label_start" name="label_start">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>245</y>
+     <width>360</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/开始检查.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_photo" name="label_photo">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>240</y>
+     <width>360</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/查看像册.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_video" name="label_video">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>245</y>
+     <width>360</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/查看视频.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_system" name="label_system">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>245</y>
+     <width>360</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/系统设置.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_b">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/背景.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>80</y>
+     <width>461</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; color:#ef2929;&quot;&gt;2026/3/17&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <zorder>label_b</zorder>
+  <zorder>label_start</zorder>
+  <zorder>label_photo</zorder>
+  <zorder>label_video</zorder>
+  <zorder>label_system</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Label_start</class>
+   <extends>QLabel</extends>
+   <header>zhukuang.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_photo</class>
+   <extends>QLabel</extends>
+   <header>zhukuang.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_video</class>
+   <extends>QLabel</extends>
+   <header>zhukuang.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_system</class>
+   <extends>QLabel</extends>
+   <header>zhukuang.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

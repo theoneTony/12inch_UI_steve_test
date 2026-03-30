@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>system_setting</class>
+ <widget class="QWidget" name="system_setting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="Label_formatting" name="label_formatting">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>360</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/格式化.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_reset" name="label_reset">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>80</y>
+     <width>360</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/重置设定.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_time" name="label_time">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>430</y>
+     <width>360</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/时间设置.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_language" name="label_language">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>430</y>
+     <width>360</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/语言设置.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_return" name="label_return">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>430</y>
+     <width>360</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/返回.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_versions" name="label_versions">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>80</y>
+     <width>360</width>
+     <height>320</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/版本信息.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_b">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/背景.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_b</zorder>
+  <zorder>label_formatting</zorder>
+  <zorder>label_reset</zorder>
+  <zorder>label_time</zorder>
+  <zorder>label_language</zorder>
+  <zorder>label_return</zorder>
+  <zorder>label_versions</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Label_formatting</class>
+   <extends>QLabel</extends>
+   <header>system_setting.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_reset</class>
+   <extends>QLabel</extends>
+   <header>system_setting.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_versions</class>
+   <extends>QLabel</extends>
+   <header>system_setting.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_time</class>
+   <extends>QLabel</extends>
+   <header>system_setting.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_language</class>
+   <extends>QLabel</extends>
+   <header>system_setting.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_return</class>
+   <extends>QLabel</extends>
+   <header>system_setting.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

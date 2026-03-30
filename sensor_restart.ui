@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sensor_restart</class>
+ <widget class="QWidget" name="sensor_restart">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_b">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>220</y>
+     <width>720</width>
+     <height>360</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(110, 215, 230);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_num1">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>440</y>
+     <width>720</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>为确保正常使用请拔出其中一条手柄重启！</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_num2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>380</y>
+     <width>720</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>检测到已插入三条手柄</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>575</x>
+     <y>250</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/警告.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_sensor" name="label_ok">
+   <property name="geometry">
+    <rect>
+     <x>585</x>
+     <y>510</y>
+     <width>100</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_b</zorder>
+  <zorder>label_num1</zorder>
+  <zorder>label_num2</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_ok</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Label_sensor</class>
+   <extends>QLabel</extends>
+   <header>sensor_restart.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

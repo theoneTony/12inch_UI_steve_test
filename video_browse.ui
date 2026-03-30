@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>video_browse</class>
+ <widget class="QWidget" name="video_browse">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="Label_select_v" name="label_select">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>79</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/相片/单选.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_select_all_v" name="label_select_all">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>20</y>
+     <width>79</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/相片/全选.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>1280</width>
+     <height>2</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/相片/界线.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_left_v" name="label_left">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>304</y>
+     <width>54</width>
+     <height>205</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/相片/往左.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_return_v" name="label_return">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>20</y>
+     <width>122</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/相片/返回.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_deselect_all_v" name="label_deselect_all">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>20</y>
+     <width>79</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/相片/取消全选.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_right_v" name="label_right">
+   <property name="geometry">
+    <rect>
+     <x>1216</x>
+     <y>304</y>
+     <width>54</width>
+     <height>205</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/相片/往右.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_delete_v" name="label_delete">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>700</y>
+     <width>142</width>
+     <height>88</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/tu/相片/删除.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_video_1" name="label_play_1">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>130</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/视频/影片标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_video_2" name="label_play_2">
+   <property name="geometry">
+    <rect>
+     <x>461</x>
+     <y>130</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/视频/影片标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_video_3" name="label_play_3">
+   <property name="geometry">
+    <rect>
+     <x>842</x>
+     <y>130</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/视频/影片标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_video_4" name="label_play_4">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>420</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/视频/影片标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_video_6" name="label_play_6">
+   <property name="geometry">
+    <rect>
+     <x>842</x>
+     <y>420</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/视频/影片标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_video_5" name="label_play_5">
+   <property name="geometry">
+    <rect>
+     <x>461</x>
+     <y>420</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/视频/影片标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_num">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>40</y>
+     <width>120</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 35pt &quot;Ubuntu&quot;;</string>
+   </property>
+   <property name="text">
+    <string>1/10</string>
+   </property>
+  </widget>
+  <widget class="Label_photo_5" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>461</x>
+     <y>420</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(138, 226, 52);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_tick4">
+   <property name="geometry">
+    <rect>
+     <x>386</x>
+     <y>655</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/相片/已选取标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_photo_6" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>842</x>
+     <y>420</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(138, 226, 52);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_tick6">
+   <property name="geometry">
+    <rect>
+     <x>1148</x>
+     <y>655</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/相片/已选取标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_tick5">
+   <property name="geometry">
+    <rect>
+     <x>767</x>
+     <y>655</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/相片/已选取标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_tick2">
+   <property name="geometry">
+    <rect>
+     <x>767</x>
+     <y>365</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/相片/已选取标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_photo_1" name="label_1">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>130</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(138, 226, 52);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_tick1">
+   <property name="geometry">
+    <rect>
+     <x>386</x>
+     <y>365</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/相片/已选取标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_photo_3" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>842</x>
+     <y>130</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(138, 226, 52);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_photo_2" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>461</x>
+     <y>130</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(138, 226, 52);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_tick3">
+   <property name="geometry">
+    <rect>
+     <x>1148</x>
+     <y>365</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/tu/相片/已选取标识.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Label_photo_4" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>420</y>
+     <width>356</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(138, 226, 52);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_21</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_select</zorder>
+  <zorder>label_select_all</zorder>
+  <zorder>label_line</zorder>
+  <zorder>label_left</zorder>
+  <zorder>label_return</zorder>
+  <zorder>label_deselect_all</zorder>
+  <zorder>label_right</zorder>
+  <zorder>label_delete</zorder>
+  <zorder>label_num</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_tick4</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_tick6</zorder>
+  <zorder>label_tick5</zorder>
+  <zorder>label_tick2</zorder>
+  <zorder>label_1</zorder>
+  <zorder>label_tick1</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_tick3</zorder>
+  <zorder>label_play_1</zorder>
+  <zorder>label_play_2</zorder>
+  <zorder>label_play_3</zorder>
+  <zorder>label_play_5</zorder>
+  <zorder>label_play_4</zorder>
+  <zorder>label_play_6</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Label_photo_6</class>
+   <extends>QLabel</extends>
+   <header>photo_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_photo_5</class>
+   <extends>QLabel</extends>
+   <header>photo_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_photo_4</class>
+   <extends>QLabel</extends>
+   <header>photo_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_photo_3</class>
+   <extends>QLabel</extends>
+   <header>photo_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_photo_2</class>
+   <extends>QLabel</extends>
+   <header>photo_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_photo_1</class>
+   <extends>QLabel</extends>
+   <header>photo_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_return_v</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_deselect_all_v</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_delete_v</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_right_v</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_select_v</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_select_all_v</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_video_1</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_video_2</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_video_3</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_video_4</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_video_5</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_video_6</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Label_left_v</class>
+   <extends>QLabel</extends>
+   <header>video_browse.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

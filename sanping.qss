@@ -1,0 +1,23 @@
+QPushButton
+{
+    background-color: rgb(0, 0, 0);
+}
+
+QLabel
+{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    qproperty-alignment: AlignCenter;
+    font-family: Arial, sans-serif;
+}
+
+QSlider::groove:horizontal {
+    border-image: url(:/tu/groove.png);
+    height: 10px; /* 根据图片大小调整 */
+}
+
+QSlider::handle:horizontal {
+    border-image: url(:/tu/handle.png);
+    width: 10px; /* 根据图片大小调整 */
+    margin: -10px 0; /* 根据需要调整 */
+}
