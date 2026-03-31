@@ -1,5 +1,10 @@
 ## 至 2026/3/30 為止所作的更改
 
+- 頁面切換鎖定功能:
+  1.初始 / 尾頁的上/下頁會為灰色
+  2.
+  
+
 - 手柄的延遲判斷:在 widget.cpp 中，修改 `connect(zhukuang_widget,&zhukuang::clicked_start,this,[=]{}`
   
 - 拍照速度更改:在 control_interface.cpp 中，對 `read_socket_photograph()` 縮短延遲判斷時間
