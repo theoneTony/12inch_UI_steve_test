@@ -330,6 +330,7 @@ void key_thread_mipi0::mythread_work()
     {
        ioctl(sar_fd, MDRV_SARADC_SET_CHANNEL_MODE_READ_ADC, &stCfg);
        //printf("qwer 6946 stCfg.adc_value=:%d\n", stCfg.adc_value);
+
        if (MIPI0_KEY)
        {
            time_Start = (double)clock();

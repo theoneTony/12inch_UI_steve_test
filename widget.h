@@ -12,6 +12,7 @@
 #include "video_browse.h"
 #include "photo_browse_single.h"
 #include "video_drowse_play.h"
+#include "testpage_1.h"
 
 #include "formatting.h"
 #include "reset_setting.h"
@@ -88,6 +89,7 @@ private:
     video_browse *video_widget;
     photo_browse_single *photo_single_widget;
     video_drowse_play *video_play_widget;
+    testPage_1 *test_page1_widget;
 
     formatting *formatting_widget;
     reset_setting *reset_widget;

@@ -32,6 +32,7 @@ SOURCES += \
     reset_setting.cpp \
     sensor_restart.cpp \
     system_setting.cpp \
+    testpage_1.cpp \
     time_setting.cpp \
     tips_no_sd_card.cpp \
     version_number.cpp \
@@ -55,6 +56,7 @@ HEADERS += \
     reset_setting.h \
     sensor_restart.h \
     system_setting.h \
+    testpage_1.h \
     time_setting.h \
     tips_no_sd_card.h \
     version_number.h \
@@ -75,6 +77,7 @@ FORMS += \
     reset_setting.ui \
     sensor_restart.ui \
     system_setting.ui \
+    testpage_1.ui \
     time_setting.ui \
     tips_no_sd_card.ui \
     version_number.ui \

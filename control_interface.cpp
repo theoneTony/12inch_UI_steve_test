@@ -848,7 +848,7 @@ void control_interface::third_key_set()
 
 void control_interface::fourth_key_set()
 {
-    if(flag_SD==0 || flag_USB==0)
+    if(flag_SD==1 || flag_USB==1)
     {
         ui->label_photograph->setStyleSheet("background-image: url(:/tu/拍照l.png);");
         emit socket_photograph();

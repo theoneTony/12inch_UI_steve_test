@@ -55,6 +55,7 @@ Widget::Widget(QWidget *parent)
     video_widget=new video_browse(this);
     photo_single_widget=new photo_browse_single(this);
     video_play_widget=new video_drowse_play(this);
+    test_page1_widget=new testPage_1(this);
 
     formatting_widget=new formatting(this);
     reset_widget=new reset_setting(this);
@@ -73,6 +74,7 @@ Widget::Widget(QWidget *parent)
     ui->one_stack->addWidget(video_widget);
     ui->one_stack->addWidget(photo_single_widget);
     ui->one_stack->addWidget(video_play_widget);
+    ui->one_stack->addWidget(test_page1_widget);
     ui->one_stack->setVisible(false);
     ui->one_stack->setCurrentWidget(zhukuang_widget);
     ui->one_stack->setVisible(true);
@@ -89,6 +91,7 @@ Widget::Widget(QWidget *parent)
     ui->two_stack->addWidget(missing_widget);
     ui->two_stack->setVisible(false);
     ui->two_stack->setCurrentWidget(version_number_widget);
+
     signal(SIGUSR1,sd_in_re);
     signal(SIGUSR2,sd_in_re);
     signal(SIGRTMAX,usb_in_re);
@@ -210,9 +213,11 @@ Widget::Widget(QWidget *parent)
     });
 
     connect(key_290,&key_thread_290::key_photo,this,[=](){
+        qDebug()<<"set_photograph();";
         control_widget->set_photograph();
     });
     connect(key_290,&key_thread_290::key_video,this,[=](){
+        qDebug()<<"set_video();";
         control_widget->set_video();
     });
     connect(key_290,&key_thread_290::key_zoom_in,this,[=](){
